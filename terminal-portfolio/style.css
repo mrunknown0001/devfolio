@@ -1,0 +1,83 @@
+body {
+    background-color: #2d2d2d;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+a,a:visited {
+    color: #00ff00;
+  }
+
+  .terminal {
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header {
+    background-color: #333;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .close { background-color: #ff5f56; }
+  .minimize { background-color: #ffbd2e; }
+  .maximize { background-color: #27c93f; }
+  
+  .title {
+    margin-left: 10px;
+    color: #ccc;
+    font-size: 14px;
+  }
+  
+  .body {
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+  }
+  
+  .command, .output {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .highlight {
+    color: #ffbd2e;
+  }
+  
+  .input-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .prompt {
+    margin-right: 10px;
+  }
+  
+  .input {
+    background: none;
+    border: none;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    outline: none;
+    flex-grow: 1;
+  }
